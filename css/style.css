@@ -8,6 +8,9 @@ body {
     color: black;
     text-transform: uppercase;
     background-color: #f2f2f2;
+    background-image: url(../img/bg-bunner.png);
+    background-position: top center;
+    background-repeat: no-repeat;
 }
 
 a {
@@ -26,10 +29,189 @@ a {
 }
 
 .main-navigation a:hover {
-    text-decoration: underline;
+    text-decoration: none;
     color: #81b3d2;
+}
+
+.main-navigation a:active {
+    color:#f1e4e4;
 }
 
 .main-navigation ul {
     list-style: none;
 }
+
+.main-slogan {
+    font-size: 21px;
+    line-height: 26px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.desc {
+   line-height: 26px;
+   text-align: center;
+   color: #333333;
+}
+
+.advantage-first,
+.advantage-second {
+    background-color: #81b3d2;
+
+}
+
+.advantage-first-title,
+.advantage-second-title {
+    font-size: 21px;
+    line-height: 21px;
+    color: #fff;
+}
+
+.advantage-first-title-text {
+    font: :inherit;
+    color: #fff;
+}
+
+.advantage-second-title,
+.advantage-second-title-text {
+    text-align: right
+}
+
+h3 {
+    font-size: 21px;
+    line-height: 21px;
+    font-weight: 700;
+    color: #000;
+}
+
+.other-advantages-list {
+    list-style: none;
+    text-align: center
+}
+
+.advantage-list {
+    text-align: center;
+    background-color: #eee;
+
+}
+
+.advantage-list ul {
+    list-style: none;
+}
+
+.hotel-search {
+    background-color: #fff;
+    text-align: center
+}
+
+.btn-search {
+    background-color: #766357;
+    font-size: 21px;
+    line-height: 26px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+}
+
+form {
+    text-align: center;
+    background-color: #fff;
+}
+
+.pre-form {
+    background-color: #fff;
+}
+
+.btn-search:hover {
+    background-color:#604e43;
+}
+
+.btn-search:active {
+    background-color: #503e33;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+label {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #000;
+}
+
+input {
+    border: none;
+    background-color: #f2f2f2;
+    text-transform: uppercase;
+    font-weight: 700;
+    outline: none;
+}
+
+input:hover {
+    background-color: #ebebeb;
+}
+
+input:focus {
+    background-color: #fff;
+}
+
+.doun,
+.up {
+    color: #a9a9a9
+}
+
+.doun:hover,
+.up:hover {
+    color: #000;
+}
+
+.doun:active,
+.up:active {
+    color: #81b3d2;
+}
+
+.btn-search-go {
+    background-color: #81b3d2;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: 700;
+    border: none;
+}
+
+.btn-search-go:hover {
+    background-color: #669ec0;
+}
+
+.btn-search-go:active {
+    background-color: #5496bd;
+    outline: none;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.main-footer {
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center
+    
+}
+
+div ul{
+    list-style: none;
+    text-align: center;
+}
+
+.social-button {
+    color: #000
+}
+
+ a.insta {
+     color: #000;
+     font-weight: 700;
+ }
+
+
+ 
+ 
+
+
+
